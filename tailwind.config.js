@@ -6,17 +6,19 @@ module.exports = {
       colors: {
         'light' : '#fefcfb',
         'dark': '#7a7a7a',
-        'bg' : '#0d0d0d',
+        'bg' : '#171717',
+        'bg2' : '#1a1a1a',
       },
       fontFamily: {
-        black: ['nacelleblack'],
-        bold: ['nacellebold'],
+        nblack: ['nacelleblack'],
+        nbold: ['nacellebold'],
         heavy: ['nacelleheavy'],
-        light: ['nacellelight'],
-        regular: ['nacelleregular'],
-        semibold: ['nacellesemibold'],
-        thin: ['nacellethin'],
-        ultralight: ['nacelleultralight']
+        nlight: ['nacellelight'],
+        nregular: ['nacelleregular'],
+        nsemibold: ['nacellesemibold'],
+        nthin: ['nacellethin'],
+        nultralight: ['nacelleultralight'],
+        mattone : ['mattoneregular']
       }
     },
   },
