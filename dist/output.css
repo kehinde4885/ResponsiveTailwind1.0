@@ -583,6 +583,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
@@ -631,12 +636,32 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .aspect-\[11\/12\] {
   aspect-ratio: 11/12;
 }
 
+.aspect-\[\] {
+  aspect-ratio: ;
+}
+
+.aspect-\[1\] {
+  aspect-ratio: 1;
+}
+
+.aspect-\[1\/1\] {
+  aspect-ratio: 1/1;
+}
+
 .h-2 {
   height: 0.5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-10\/12 {
@@ -749,6 +774,10 @@ video {
   width: 66.666667%;
 }
 
+.w-2\/4 {
+  width: 50%;
+}
+
 .basis-16 {
   flex-basis: 4rem;
 }
@@ -777,6 +806,22 @@ video {
   flex-basis: 20%;
 }
 
+.basis-2\/4 {
+  flex-basis: 50%;
+}
+
+.basis-5\/12 {
+  flex-basis: 41.666667%;
+}
+
+.basis-4\/12 {
+  flex-basis: 33.333333%;
+}
+
+.basis-6\/12 {
+  flex-basis: 50%;
+}
+
 .grid-flow-row {
   grid-auto-flow: row;
 }
@@ -793,12 +838,24 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 
 .justify-center {
@@ -815,6 +872,12 @@ video {
 
 .gap-y-12 {
   row-gap: 3rem;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center {
@@ -1080,6 +1143,167 @@ video {
 
 .text-\[\.75re\] {
   color: .75re;
+}
+
+@media (min-width: 770px) {
+  .min-\[770px\]\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .min-\[770px\]\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .min-\[770px\]\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .min-\[770px\]\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .min-\[770px\]\:flex {
+    display: flex;
+  }
+
+  .min-\[770px\]\:w-3\/4 {
+    width: 75%;
+  }
+
+  .min-\[770px\]\:w-3 {
+    width: 0.75rem;
+  }
+
+  .min-\[770px\]\:w-9\/12 {
+    width: 75%;
+  }
+
+  .min-\[770px\]\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .min-\[770px\]\:w-\[\] {
+    width: ;
+  }
+
+  .min-\[770px\]\:w-\[10ch\] {
+    width: 10ch;
+  }
+
+  .min-\[770px\]\:basis-3\/4 {
+    flex-basis: 75%;
+  }
+
+  .min-\[770px\]\:basis-2\/5 {
+    flex-basis: 40%;
+  }
+
+  .min-\[770px\]\:justify-between {
+    justify-content: space-between;
+  }
+
+  .min-\[770px\]\:self-end {
+    align-self: flex-end;
+  }
+
+  .min-\[770px\]\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .min-\[770px\]\:text-right {
+    text-align: right;
+  }
+
+  .min-\[770px\]\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .min-\[770px\]\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .min-\[770px\]\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 999px) {
+  .min-\[999px\]\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .min-\[999px\]\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .min-\[999px\]\:flex {
+    display: flex;
+  }
+
+  .min-\[999px\]\:hidden {
+    display: none;
+  }
+
+  .min-\[999px\]\:w-2\/4 {
+    width: 50%;
+  }
+
+  .min-\[999px\]\:w-max {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .min-\[999px\]\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .min-\[999px\]\:basis-6\/12 {
+    flex-basis: 50%;
+  }
+
+  .min-\[999px\]\:basis-4\/12 {
+    flex-basis: 33.333333%;
+  }
+
+  .min-\[999px\]\:basis-9\/12 {
+    flex-basis: 75%;
+  }
+
+  .min-\[999px\]\:basis-10\/12 {
+    flex-basis: 83.333333%;
+  }
+
+  .min-\[999px\]\:basis-3\/12 {
+    flex-basis: 25%;
+  }
+
+  .min-\[999px\]\:basis-2\/12 {
+    flex-basis: 16.666667%;
+  }
+
+  .min-\[999px\]\:basis-8\/12 {
+    flex-basis: 66.666667%;
+  }
+
+  .min-\[999px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .min-\[999px\]\:justify-between {
+    justify-content: space-between;
+  }
+
+  .min-\[999px\]\:self-center {
+    align-self: center;
+  }
 }
 
 
