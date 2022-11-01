@@ -1243,6 +1243,10 @@ video {
     margin-bottom: 2rem;
   }
 
+  .min-\[999px\]\:mt-auto {
+    margin-top: auto;
+  }
+
   .min-\[999px\]\:flex {
     display: flex;
   }
@@ -1263,6 +1267,14 @@ video {
 
   .min-\[999px\]\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .min-\[999px\]\:w-3\/12 {
+    width: 25%;
+  }
+
+  .min-\[999px\]\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .min-\[999px\]\:basis-6\/12 {
@@ -1293,6 +1305,16 @@ video {
     flex-basis: 66.666667%;
   }
 
+  .min-\[999px\]\:basis-11\/12 {
+    flex-basis: 91.666667%;
+  }
+
+  @media (min-width: 999px) {
+    .min-\[999px\]\:min-\[999px\]\:basis-6\/12 {
+      flex-basis: 50%;
+    }
+  }
+
   .min-\[999px\]\:flex-col {
     flex-direction: column;
   }
@@ -1303,6 +1325,89 @@ video {
 
   .min-\[999px\]\:self-center {
     align-self: center;
+  }
+
+  .min-\[999px\]\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .min-\[1200px\]\:text-\[clamp\(\)\] {
+    font-size: clamp();
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.\)\] {
+    font-size: clamp(3.);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c \)\] {
+    font-size: clamp(3.75rem,4vw,);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c 6rem\)\] {
+    font-size: clamp(3.75rem,4vw,6rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c 8rem\)\] {
+    font-size: clamp(3.75rem,4vw,8rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c 10rem\)\] {
+    font-size: clamp(3.75rem,4vw,10rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 6vw\2c 10rem\)\] {
+    font-size: clamp(3.75rem,6vw,10rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 5vw\2c 10rem\)\] {
+    font-size: clamp(3.75rem,5vw,10rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c 4rem\)\] {
+    font-size: clamp(3.75rem,4vw,4rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 2vw\2c 4rem\)\] {
+    font-size: clamp(3.75rem,2vw,4rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 1vw\2c 4rem\)\] {
+    font-size: clamp(3.75rem,1vw,4rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 6vw\2c 8rem\)\] {
+    font-size: clamp(3.75rem,6vw,8rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 6vw\2c 4rem\)\] {
+    font-size: clamp(3.75rem,6vw,4rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 6vw\2c 7rem\)\] {
+    font-size: clamp(3.75rem,6vw,7rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 5vw\2c 7rem\)\] {
+    font-size: clamp(3.75rem,5vw,7rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 4vw\2c 7rem\)\] {
+    font-size: clamp(3.75rem,4vw,7rem);
+  }
+
+  .min-\[1200px\]\:text-\[clamp\(3\.75rem\2c 5vw\2c rem\)\] {
+    font-size: clamp(3.75rem,5vw,rem);
+  }
+
+  .min-\[1200px\]\:text-\[\] {
+    color: ;
+  }
+
+  .min-\[1200px\]\:text-\[clamp\] {
+    color: clamp;
   }
 }
 
