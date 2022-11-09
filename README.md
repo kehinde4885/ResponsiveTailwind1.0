@@ -7,6 +7,7 @@ Videos
 Colors
 Typography
 Screen Sizes for Responsiveness
+Layout PLanning
 Layout: This needs to be planned for for each Responsive Layout
 it wasnt in this project and quite frankly it shows.
 
